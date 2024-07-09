@@ -1,4 +1,4 @@
-import { createElement, useRef } from "react";
+import {useRef } from "react";
 import { content } from "../Content";
 import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
@@ -88,7 +88,6 @@ const Contact = () => {
                 data-aos-delay={i * 430}
                 className="flex items-center gap-2"
               >
-                 {/* <h4 className="text-white">{createElement(content.icon)}</h4> \ */}
               
       <div className="">
           {content.icon}

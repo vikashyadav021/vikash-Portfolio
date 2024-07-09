@@ -1,5 +1,5 @@
 // import images
-import Hero_person from "./assets/images/Hero/vikash.png";
+import Hero_person from "./assets/images/Hero/vikash-office.jpg";
 
 import js from "./assets/images/Skills/js.png";
 import reactjs from "./assets/images/Skills/react.png";
@@ -16,6 +16,7 @@ import tailwind from "./assets/images/Projects/tailwind-css.svg";
 
 import project1 from "../src/assets/images/Projects/rjTutorial.png";
 import project2 from "../src/assets/images/Projects/img2.png";
+import project3 from "../src/assets/images/Projects/explore.png";
 
 // import project3 from "./img/img3.png";
 // import person_project from "./img/person.png";
@@ -65,7 +66,7 @@ export const content = {
   ],
 
   hero: {
-    title: "Web Developer",
+    title: "Software Developer",
     firstName: "VIKASH",
     LastName: "YADAV",
     btnText: "Contact Me",
@@ -73,11 +74,11 @@ export const content = {
     hero_content: [
       {
         count: "1+",
-        text: "Years of Experience in Web development",
+        text: "Years of experience in web development",
       },
       {
         count: "10+",
-        text: "Projects Worked in my career",
+        text: "Projects worked in my career",
       },
     ],
   },
@@ -153,11 +154,10 @@ export const content = {
         image1: project1,
         title2: "Mini Projects",
         image2: project2,
+        title3: "Explore ai hub",
+        image3: project3,
       },
-      // {
-      //   title1: "Mini Projects",
-      //   image: project2,
-      // },
+      
     ],
   },
   Testimonials: {
@@ -249,7 +249,7 @@ export const content = {
     ],
   },
   Footer: {
-    text: "All ©Vikash Yadav Copy Right Reserved 2023",
+    text: "All ©Vikash Yadav Copy Right Reserved 2024",
   },
 };
 
